@@ -1,0 +1,60 @@
+.webposter {
+    width: 100%;
+    padding-top: 65px;
+    max-height: 500px;
+}
+.date{
+    text-shadow:
+        4.5px 5.1px 1.9px rgba(0, 0, 0, 0.092),
+        8.7px 9.9px 4.3px rgba(0, 0, 0, 0.129),
+        13.1px 14.8px 7.9px rgba(0, 0, 0, 0.155),
+        18.2px 20.6px 13.3px rgba(0, 0, 0, 0.18),
+        25.4px 28.7px 22.5px rgba(0, 0, 0, 0.211),
+        38.3px 43.4px 40.9px rgba(0, 0, 0, 0.26),
+        75px 85px 81px rgba(0, 0, 0, 0.4)
+        ;
+        
+    background: -webkit-linear-gradient(green, red, red, black);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.date span {
+    font-size: 2.5em;
+}
+.typography {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    padding-top: 20px;
+    font-size: 20px;
+    padding-bottom: 50px;
+}
+.e-head {
+    text-shadow:
+        4.5px 5.1px 1.9px rgba(0, 0, 0, 0.092),
+        8.7px 9.9px 4.3px rgba(0, 0, 0, 0.129),
+        13.1px 14.8px 7.9px rgba(0, 0, 0, 0.155),
+        18.2px 20.6px 13.3px rgba(0, 0, 0, 0.18),
+        25.4px 28.7px 22.5px rgba(0, 0, 0, 0.211),
+        38.3px 43.4px 40.9px rgba(0, 0, 0, 0.26),
+        75px 85px 81px rgba(0, 0, 0, 0.4)
+        ;
+        
+    background: -webkit-linear-gradient(black, red, black);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline solid greenyellow;
+}
+@media screen and (max-width: 600px) {
+    .webposter {
+        padding-top: 55px;
+    }
+}

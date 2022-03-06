@@ -1,0 +1,37 @@
+.main-img {
+    width: 100%;
+    max-height: 300px;
+}
+
+.main-h-div{
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+.main-h {
+    text-transform: uppercase;
+    padding: 15px 40px 1px 40px;
+    border-radius: 50%;
+    text-decoration-line: underline;
+    background-color: white;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+    font-size: 70px;
+}
+.main-h span{
+    color: red;
+}
+
+@media screen and (max-width: 1000px) {
+    .main-h {
+        font-size: 40px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .main-h {
+        font-size: 25px;
+    }
+}
