@@ -107,7 +107,7 @@ const socialIcons = [
       </svg>
     ),
     label: "Facebook",
-    href: "https://facebook.com"
+    href: "https://www.instagram.com/citronics2k22/"
   },
   {
     icon: (
@@ -123,7 +123,7 @@ const socialIcons = [
       </svg>
     ),
     label: "LinkedIn",
-    href: "https://www.linkedin.com/"
+    href: "https://www.instagram.com/citronics2k22/"
   },
   {
     icon: (
@@ -139,7 +139,7 @@ const socialIcons = [
       </svg>
     ),
     label: "Twitter",
-    href: "https://www.twitter.com/"
+    href: "https://www.instagram.com/citronics2k22/"
   },
   {
     icon: (
@@ -155,8 +155,8 @@ const socialIcons = [
         
         </svg>
     ),
-    label: "Twitter",
-    href: "https://www.twitter.com/"
+    label: "Instagram",
+    href: "https://www.instagram.com/citronics2k22/"
   },
 ];
 
@@ -234,7 +234,7 @@ function Footer(props) {
             </Box>
           </Grid>
         </Grid>
-        <div style={{color: "red", textAlign: "center"}}>Designing Partner<Link style={{fontWeight: "bold", textDecoration: "none", color: "white"}}> Arjun Patidar</Link> and <Link style={{fontWeight: "bold", textDecoration: "none", color: "white"}}>Sahil Kharche</Link></div>
+        <div style={{color: "red", textAlign: "center"}}>Designing Partner<Link to="https://www.linkedin.com/in/arjun-patidar-6027391b0/" style={{fontWeight: "bold", textDecoration: "none", color: "white"}}> Arjun Patidar</Link> and <Link style={{fontWeight: "bold", textDecoration: "none", color: "white"}}>Sahil Kharche</Link></div>
       </div>
       
     </footer>

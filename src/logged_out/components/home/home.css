@@ -54,6 +54,7 @@
     text-decoration: underline solid greenyellow;
 }
 .event-head {
+    margin: 0;
     margin-top: 60px;
     background-color: red;
     color: white;

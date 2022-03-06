@@ -30,11 +30,8 @@ function Home(props) {
         <EventCards />
       </section>
       <HeadSection />
-      <div className="event-head" align="center">
-          <h4>EVENT HEAD</h4>
-          <h5>ATHARVA HAJARNIS : 00000000000</h5>
-        </div>
-      <section className="container" style={{marginTop: "120px"}}>
+      
+      <section className="container" style={{paddingTop: "120px"}}>
         
         <GoogleMap />
       </section>

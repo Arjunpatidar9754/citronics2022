@@ -1,30 +1,41 @@
-import React, { memo } from "react";
+import React, { memo, lazy, Suspense } from "react";
 import PropTypes from "prop-types";
-import { Switch } from "react-router-dom";
-import Home from "./home/Home";
-import Events from "./Events/events";
-import AboutUs from "./AboutUs/aboutUs";
+import { Switch, Route, Redirect, useLocation } from "react-router-dom";
 
-import { Route } from "react-router"
-import Entertainment from "./Events/allEvents/entertainment";
-import Mechanical from "./Events/allEvents/mechanical";
-import Software from "./Events/allEvents/software";
-import Robotics from "./Events/allEvents/robotics";
-import OnSpot from "./Events/allEvents/onSpot";
-import Sports from "./Events/allEvents/sports";
-import Pharma from "./Events/allEvents/pharma";
-import Enterprenuership from "./Events/allEvents/Enterprenuership";
-import Adventurous from "./Events/allEvents/adventurous";
-import Photography from "./Events/allEvents/photography";
-import Civil from "./Events/allEvents/civil";
-import Management from "./Events/allEvents/Management";
+const Home = lazy(() => import('./home/Home'));
+const Events = lazy(() => import('./Events/events'));
+const AboutUs = lazy(() => import('./AboutUs/aboutUs'));
+const Entertainment = lazy(() => import('./Events/allEvents/entertainment'));
+const Mechanical = lazy(() => import('./Events/allEvents/mechanical'));
+const Software = lazy(() => import('./Events/allEvents/software'));
+const Robotics = lazy(() => import('./Events/allEvents/robotics'));
+const OnSpot = lazy(() => import('./Events/allEvents/onSpot'));
+const Sports = lazy(() => import('./Events/allEvents/sports'));
+const Pharma = lazy(() => import('./Events/allEvents/pharma'));
+const Enterprenuership = lazy(() => import('./Events/allEvents/Enterprenuership'));
+const Adventurous = lazy(() => import('./Events/allEvents/adventurous'));
+const Photography = lazy(() => import('./Events/allEvents/photography'));
+const Civil = lazy(() => import('./Events/allEvents/civil'));
+const Management = lazy(() => import('./Events/allEvents/Management'));
 
 function Routing() {
+  const location = useLocation();
+
   return (
-    <Switch>
+    <Suspense
+          fallback={
+            <div className="d-flex align-items-center vh-100 justify-content-center text-center font-weight-bold font-size-lg py-3">
+              <div className="w-50 mx-auto">
+                Citronics 2k22
+              </div>
+            </div>
+          }>
+    <Switch location={location} key={location.pathname}>
+      <Redirect exact from="/" to="/home" />
+      
       <Route exact path="/about-us" component={AboutUs} />
       <Route exact path="/events" component={Events} />
-      <Route exact path="/" component={Home} />
+      <Route exact path="/home" component={Home} />
       <Route exact path="/events/entertainment" component={Entertainment} />
       <Route exact path="/events/software" component={Software} />
       <Route exact path="/events/mechanical" component={Mechanical} />
@@ -38,6 +49,7 @@ function Routing() {
       <Route exact path="/events/civil" component={Civil} />
       <Route exact path="/events/management" component={Management} />
     </Switch>
+    </Suspense>
   );
 }
 

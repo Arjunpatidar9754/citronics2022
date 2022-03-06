@@ -14,6 +14,7 @@ import {
 } from "@material-ui/core";
 import WaveBorder from "../../../shared/components/WaveBorder";
 import ZoomImage from "../../../shared/components/ZoomImage";
+import SubPoster from "../../images/sub-poster.jpg";
 
 const styles = (theme) => ({
   extraLargeButtonLabel: {
@@ -104,14 +105,14 @@ function HeadSection(props) {
   return (
     <Fragment>
       <div className={classNames("lg-p-top", classes.wrapper)}>
-        <div className={classNames("container-fluid", classes.container)}>
+        <div className={classNames("container-fluid", classes.container)} style={{marginTop: "-60px"}}>
           <Box display="flex" justifyContent="center" className="row">
             <Card
               className={classes.card}
               data-aos-delay="200"
               data-aos="zoom-in"
             >
-              <div className={classNames(classes.containerFix, "container")}>
+              <div className={classNames(classes.containerFix, "container")} >
                 <Box justifyContent="space-between" className="row">
                   <Grid item xs={12} md={5}>
                     <Box
@@ -153,10 +154,12 @@ function HeadSection(props) {
                   <Hidden smDown>
                     <Grid item md={6}>
                       <ZoomImage
-                        src={`${process.env.PUBLIC_URL}/images/logged_out/headerImage.jpg`}
+                        src={SubPoster}
                         className={classes.image}
                         alt="header example"
                       />
+                      <h4 style={{paddingTop: "10px"}}>EVENT HEAD</h4>
+                      <h5>ATHARVA HAJARNIS : 8770052072</h5>
                     </Grid>
                   </Hidden>
                 </Box>
