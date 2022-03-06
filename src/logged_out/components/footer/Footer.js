@@ -21,6 +21,7 @@ import Agrawal from "../../images/agrawalWhite.png";
 
 import GoogleMap from "../GooglMap"
 import "./footer.css";
+import { Link } from "react-router-dom";
 
 const styles = theme => ({
   footerInner: {
@@ -233,7 +234,9 @@ function Footer(props) {
             </Box>
           </Grid>
         </Grid>
+        <div style={{color: "red", textAlign: "center"}}>Designing Partner<Link style={{fontWeight: "bold", textDecoration: "none", color: "white"}}> Arjun Patidar</Link> and <Link style={{fontWeight: "bold", textDecoration: "none", color: "white"}}>Sahil Kharche</Link></div>
       </div>
+      
     </footer>
   );
 }

@@ -6,6 +6,8 @@ import HeadSection from "./HeadSection";
 import WebPoster from "../../images/website poster-l.jpg";
 import "./home.css";
 import { Typography } from "@material-ui/core";
+import EventCards from "../Events/eventCatds";
+import GoogleMap from "../GooglMap";
 
 function Home(props) {
   // const { selectHome } = props;
@@ -23,12 +25,19 @@ function Home(props) {
         </Typography>
         <hr style={{color: "solid black", height: "5px"}}/>
       </section>
-      <section className="events">
+      <section className="events container">
         <h1 className="e-head">Let's have some fun!</h1>  <br />
-        ghjkl
+        <EventCards />
       </section>
       <HeadSection />
-      
+      <div className="event-head" align="center">
+          <h4>EVENT HEAD</h4>
+          <h5>ATHARVA HAJARNIS : 00000000000</h5>
+        </div>
+      <section className="container" style={{marginTop: "120px"}}>
+        
+        <GoogleMap />
+      </section>
     </Fragment>
   );
 }

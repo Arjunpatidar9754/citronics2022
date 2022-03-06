@@ -124,8 +124,7 @@ function HeadSection(props) {
                         <Typography
                           variant={isWidthUp("lg", width) ? "h3" : "h4"}
                         >
-                          Free Template for building a SaaS app using
-                          Material-UI
+                          Citronics form
                         </Typography>
                       </Box>
                       <div>
@@ -144,9 +143,9 @@ function HeadSection(props) {
                           fullWidth
                           className={classes.extraLargeButton}
                           classes={{ label: classes.extraLargeButtonLabel }}
-                          href="https://github.com/dunky11/react-saas-template"
+                          href=""
                         >
-                          Download from GitHub
+                          Register Now
                         </Button>
                       </div>
                     </Box>
