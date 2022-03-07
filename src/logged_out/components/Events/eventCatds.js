@@ -119,7 +119,7 @@ function EventCards() {
                     
                     <Card.Body>
                         <Card.Title className="card-title">Adventurous Events</Card.Title>
-                        <div style={{marginBottom: "10px"}}><b>Core:</b>Rahul Prajapat [ --------- ]</div>
+                        <div style={{marginBottom: "10px"}}><b>Core:</b>Rahul Prajapat [ 8085150011 ]</div>
                         <Link to="/events/adventurous" className="card-link">Know More</Link>
                     </Card.Body>
                 </Card>
@@ -130,7 +130,7 @@ function EventCards() {
                     
                     <Card.Body>
                         <Card.Title className="card-title">Photography Events</Card.Title>
-                        <div style={{marginBottom: "10px"}}><b>Core:</b>Pranav Singh [ --------- ]</div>
+                        <div style={{marginBottom: "10px"}}><b>Core:</b>Pranav Singh [ 9993823010 ]</div>
                         <Link to="/events/entertainment" className="card-link">Know More</Link>
                     </Card.Body>
                 </Card>
@@ -141,7 +141,7 @@ function EventCards() {
                     <Card.Img variant="top" src={Civil} alt="Civil events"/>
                     <Card.Body>
                         <Card.Title className="card-title">Civil Events</Card.Title>
-                        <div style={{marginBottom: "10px"}}><b>Core:</b>Ritik Prajapat [ ------- ]</div>
+                        <div style={{marginBottom: "10px"}}><b>Core:</b>Ritik Prajapat [ 6267770529 ]</div>
                         <Link to="/events/civil" className="card-link">Know More</Link>
                     </Card.Body>
                 </Card>
@@ -151,7 +151,7 @@ function EventCards() {
                     <Card.Img variant="top" src={Management} alt="Management events"/>
                     <Card.Body>
                         <Card.Title className="card-title">Management Events</Card.Title>
-                        <div><b>Core:</b>Arpit Sharma [ ------ ]</div>
+                        <div><b>Core:</b>Arpit Sharma [ 9109257252 ]</div>
                         <div><b>Core:</b>Harsh Sen [ ------ ]</div>
                         <div style={{marginBottom: "10px"}}><b>Core:</b>Nirmal Patidar [ ------ ]</div>
                         <Link to="/events/management" className="card-link">Know More</Link>
