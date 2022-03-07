@@ -8,6 +8,21 @@ import "./home.css";
 import { Typography } from "@material-ui/core";
 import EventCards from "../Events/eventCatds";
 import GoogleMap from "../GooglMap";
+import {Carousel} from "react-bootstrap";
+import { Link } from "react-router-dom";
+import Entertainment from "../../images/entertainment/entertainment.webp";
+import Enterpreneurship from "../../images/enterprenuership/enterpreneurship.webp";
+import Software from "../../images/software/software.webp";
+import Mechanical from "../../images/mechanical/mechanical.jpg";
+import OnSpot from "../../images/onspot/onspot.webp";
+import Robotics from "../../images/robotics/robotics.webp";
+import Sports from "../../images/sports/sports.webp";
+import Pharma from "../../images/pharma/pharma.webp";
+import Adventurous from "../../images/sports/sports.webp";
+import Photography from "../../images/sports/photography.webp";
+import Civil from "../../images/sports/civil.webp";
+import Management from "../../images/sports/sports.webp";
+import ShowGallery from "./showgallery/showgallery";
 
 function Home(props) {
   // const { selectHome } = props;
@@ -25,9 +40,123 @@ function Home(props) {
         </Typography>
         <hr style={{color: "solid black", height: "5px"}}/>
       </section>
-      <section className="events container">
-        <h1 className="e-head">Let's have some fun!</h1>  <br />
-        <EventCards />
+      <section className="container">
+        <h1 className="e-head" style={{paddingBottom: "30px"}}>EVENTS</h1>
+        <Carousel>
+          <Carousel.Item>
+            <Link to="/events" >
+              <img
+                className="d-block w-100"
+                src={Entertainment}
+                alt="First slide"
+              />
+            </Link>
+          </Carousel.Item>
+          <Carousel.Item>
+            <Link to="/events" >
+              <img
+                className="d-block w-100"
+                src={Enterpreneurship}
+                alt="First slide"
+              />
+            </Link>
+          </Carousel.Item>
+          <Carousel.Item>
+          < Link to="/events" >
+              <img
+                className="d-block w-100"
+                src={Software}
+                alt="First slide"
+              />
+            </Link>
+          </Carousel.Item>
+          <Carousel.Item>
+          < Link to="/events" >
+              <img
+                className="d-block w-100"
+                src={OnSpot}
+                alt="First slide"
+              />
+            </Link>
+          </Carousel.Item>
+          <Carousel.Item>
+          < Link to="/events" >
+              <img
+                className="d-block w-100"
+                src={Robotics}
+                alt="First slide"
+              />
+            </Link>
+          </Carousel.Item>
+          <Carousel.Item>
+          < Link to="/events" >
+              <img
+                className="d-block w-100"
+                src={Sports}
+                alt="First slide"
+              />
+            </Link>
+          </Carousel.Item>
+          <Carousel.Item>
+          < Link to="/events" >
+              <img
+                className="d-block w-100"
+                src={Pharma}
+                alt="First slide"
+              />
+            </Link>
+          </Carousel.Item>
+          <Carousel.Item>
+          < Link to="/events" >
+              <img
+                className="d-block w-100"
+                src={Adventurous}
+                alt="First slide"
+              />
+            </Link>
+          </Carousel.Item>
+          <Carousel.Item>
+          < Link to="/events" >
+              <img
+                className="d-block w-100"
+                src={Photography}
+                alt="First slide"
+              />
+            </Link>
+          </Carousel.Item>
+          <Carousel.Item>
+          < Link to="/events" >
+              <img
+                className="d-block w-100"
+                src={Civil}
+                alt="First slide"
+              />
+            </Link>
+          </Carousel.Item>
+          <Carousel.Item>
+          < Link to="/events" >
+              <img
+                className="d-block w-100"
+                src={Management}
+                alt="First slide"
+              />
+            </Link>
+          </Carousel.Item>
+          <Carousel.Item>
+          < Link to="/events" >
+              <img
+                className="d-block w-100"
+                src={Mechanical}
+                alt="First slide"
+              />
+            </Link>
+          </Carousel.Item>
+        </Carousel>
+        
+      </section><hr />
+      <section className=" container" style={{paddingTop: "20px", paddingBottom: "100px"}}>
+        <h1 className="e-head" style={{paddingTop: "50px"}}>Let's have some fun!</h1>  <br />
+        <ShowGallery />
       </section>
       <HeadSection />
       

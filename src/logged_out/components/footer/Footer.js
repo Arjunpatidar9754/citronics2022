@@ -234,7 +234,7 @@ function Footer(props) {
             </Box>
           </Grid>
         </Grid>
-        <div style={{color: "red", textAlign: "center"}}>Designing Partner<Link to="https://www.linkedin.com/in/arjun-patidar-6027391b0/" style={{fontWeight: "bold", textDecoration: "none", color: "white"}}> Arjun Patidar</Link> and <Link style={{fontWeight: "bold", textDecoration: "none", color: "white"}}>Sahil Kharche</Link></div>
+        <div style={{color: "red", textAlign: "center"}}>Designing Partner<Link to="https://www.linkedin.com/in/arjun-patidar-6027391b0/" style={{fontWeight: "bold", textDecoration: "none", color: "white"}}> Arjun Patidar</Link> </div>
       </div>
       
     </footer>

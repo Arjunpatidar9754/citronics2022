@@ -9,6 +9,7 @@ import Dare2develop from "./enterprenuership/dare2develop.webp";
 import Youth from "./enterprenuership/youth.webp";
 
 import "../events.css";
+import "./allevents.css";
 import { Accordion } from 'react-bootstrap';
 
 // Demo styles, see 'Styles' section below for some notes on use.
@@ -149,7 +150,7 @@ function Enterprenuership () {
                     <Accordion.Header><h4 style={{textAlign: "center", color: "brown" }}>Close</h4></Accordion.Header>
                     </Accordion.Body>
                 </Accordion.Item>
-                </Accordion>
+            </Accordion>
         </section>
         <hr />
         <section style={{paddingTop: "50px"}} className="container">
@@ -181,7 +182,7 @@ function Enterprenuership () {
                     <Accordion.Header><h4 style={{textAlign: "center", color: "brown" }}>Close</h4></Accordion.Header>
                     </Accordion.Body>
                 </Accordion.Item>
-                </Accordion>
+            </Accordion>
         </section>
         <hr />
         <section style={{paddingTop: "50px"}} className="container">

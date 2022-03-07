@@ -4,18 +4,18 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Link } from "react-router-dom";
 import "./events.css";
 import { Grid } from "@material-ui/core";
-import Entertainment from "../../images/entertainment/entertainment.jpg";
-import Enterpreneurship from "../../images/enterprenuership/enterpreneurship.jpg";
-import Software from "../../images/software/software.jpg";
+import Entertainment from "../../images/entertainment/entertainment.webp";
+import Enterpreneurship from "../../images/enterprenuership/enterpreneurship.webp";
+import Software from "../../images/software/software.webp";
 import Mechanical from "../../images/mechanical/mechanical.jpg";
-import OnSpot from "../../images/onspot/onspot.jpg";
-import Robotics from "../../images/robotics/robotics.jpg";
-import Sports from "../../images/sports/sports.jpg";
-import Pharma from "../../images/sports/sports.jpg";
-import Adventurous from "../../images/sports/sports.jpg";
-import Photography from "../../images/sports/sports.jpg";
-import Civil from "../../images/sports/sports.jpg";
-import Management from "../../images/sports/sports.jpg";
+import OnSpot from "../../images/onspot/onspot.webp";
+import Robotics from "../../images/robotics/robotics.webp";
+import Sports from "../../images/sports/sports.webp";
+import Pharma from "../../images/pharma/pharma.webp";
+import Adventurous from "../../images/sports/sports.webp";
+import Photography from "../../images/sports/photography.webp";
+import Civil from "../../images/sports/civil.webp";
+import Management from "../../images/sports/sports.webp";
 
 
 
@@ -108,7 +108,8 @@ function EventCards() {
                     
                     <Card.Body>
                         <Card.Title className="card-title">Pharma Events</Card.Title>
-                        <div style={{marginBottom: "10px"}}><b>Core:</b>Anshika Tiwari [ ----------- ]</div>
+                        <div><b>Core:</b>Aman Bundela [ 8962202886 ]</div>
+                        <div style={{marginBottom: "10px"}}><b>Core:</b>Nikhil Shinde [ 9179086764 ]</div>
                         <Link to="/events/pharma" className="card-link">Know More</Link>
                     </Card.Body>
                 </Card>
@@ -146,6 +147,7 @@ function EventCards() {
                     </Card.Body>
                 </Card>
             </Grid>
+
             <Grid item sm={6} lg={4} xs={12} >
                 <Card>
                     <Card.Img variant="top" src={Management} alt="Management events"/>
@@ -159,8 +161,6 @@ function EventCards() {
                 </Card>
             </Grid>
         </Grid>
-            
-        
         
         </>
     );
