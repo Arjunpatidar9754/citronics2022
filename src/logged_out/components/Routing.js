@@ -50,6 +50,13 @@ function Routing() {
       <Route exact path="/events/photography" component={Photography} />
       <Route exact path="/events/civil" component={Civil} />
       <Route exact path="/events/management" component={Management} />
+      <Route
+            path="/arjun-linkedin"
+            component={() => {
+              window.location.replace('https://www.linkedin.com/in/arjun-patidar-6027391b0/');
+              return null;
+            }}
+          />
     </Switch>
     </Suspense>
   );

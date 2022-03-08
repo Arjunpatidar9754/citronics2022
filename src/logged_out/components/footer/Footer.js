@@ -24,7 +24,6 @@ import { Link } from "react-router-dom";
 const GoogleMap = lazy(() => import('../GooglMap'));
 
 
-
 const styles = theme => ({
   footerInner: {
     backgroundColor: theme.palette.common.darkBlack,
@@ -236,7 +235,7 @@ function Footer(props) {
             </Box>
           </Grid>
         </Grid>
-        <div style={{color: "red", textAlign: "center"}}>Designing Partner<Link to="https://www.linkedin.com/in/arjun-patidar-6027391b0/" style={{fontWeight: "bold", textDecoration: "none", color: "white"}}> Arjun Patidar</Link> </div>
+        <div style={{color: "red", textAlign: "center"}}>Designing Partner<Link to="/arjun-linkedin" target="_blank" style={{fontWeight: "bold", textDecoration: "none", color: "white"}}> Arjun Patidar</Link> </div>
       </div>
       
     </footer>
