@@ -1,4 +1,4 @@
-import React from "react";
+import React, {lazy} from "react";
 import PropTypes from "prop-types";
 import {
   Grid,
@@ -18,10 +18,12 @@ import collegeLogo2 from "../../images/collegeLogo2.png";
 import collegeLogo3 from "../../images/collegeLogo3.png";
 import collegeLogo4 from "../../images/collegeLogo4.png";
 import Agrawal from "../../images/agrawalWhite.png";
-
-import GoogleMap from "../GooglMap"
 import "./footer.css";
 import { Link } from "react-router-dom";
+
+const GoogleMap = lazy(() => import('../GooglMap'));
+
+
 
 const styles = theme => ({
   footerInner: {

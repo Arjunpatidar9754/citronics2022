@@ -116,6 +116,7 @@ function NavBar(props) {
                     size="large"
                     onClick={element.onClick}
                     classes={{ text: classes.menuButtonText }}
+                    style={{color: "red"}}
                     key={element.name}
                   >
                     {element.name}

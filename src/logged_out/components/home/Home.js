@@ -7,7 +7,6 @@ import WebPoster from "../../images/website poster-l.jpg";
 import "./home.css";
 import { Typography } from "@material-ui/core";// eslint-disable-next-line
 import EventCards from "../Events/eventCatds"; 
-import GoogleMap from "../GooglMap";
 import {Carousel} from "react-bootstrap";
 import { Link } from "react-router-dom";
 import Entertainment from "../../images/entertainment/entertainment.webp";
@@ -23,6 +22,8 @@ import Photography from "../../images/sports/photography.webp";
 import Civil from "../../images/sports/civil.webp";
 import Management from "../../images/sports/sports.webp";
 import ShowGallery from "./showgallery/showgallery";
+import StuntMania from "./stuntMania";
+import MyCarousel from "./carousel";
 
 function Home(props) {
   // const { selectHome } = props;
@@ -156,13 +157,14 @@ function Home(props) {
       </section><hr />
       <section className=" container" style={{paddingTop: "20px", paddingBottom: "100px"}}>
         <h1 className="e-head" style={{paddingTop: "50px"}}>Let's have some fun!</h1>  <br />
+        <StuntMania />
         <ShowGallery />
       </section>
       <HeadSection />
       
       <section className="container" style={{paddingTop: "120px"}}>
-        
-        <GoogleMap />
+      <h1 className="e-head" style={{paddingBottom: "-10px"}}>-OUR PREVIOUS SPONSORS-</h1>
+        <MyCarousel />
       </section>
     </Fragment>
   );

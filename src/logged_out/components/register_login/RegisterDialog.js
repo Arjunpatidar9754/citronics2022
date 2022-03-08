@@ -227,7 +227,7 @@ function RegisterDialog(props) {
           color="secondary"
           disabled={isLoading}
         >
-          Register
+          Pay &#38; Register
           {isLoading && <ButtonCircularProgress />}
         </Button>
       }

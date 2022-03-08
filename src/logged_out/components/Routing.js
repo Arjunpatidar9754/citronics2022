@@ -20,7 +20,9 @@ const Management = lazy(() => import('./Events/allEvents/Management'));
 
 function Routing() {
   const location = useLocation();
-
+  React.useEffect(() => {
+    window.scrollTo(0, 0);
+  });
   return (
     <Suspense
           fallback={

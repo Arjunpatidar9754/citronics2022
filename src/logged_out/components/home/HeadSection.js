@@ -134,6 +134,7 @@ function HeadSection(props) {
                             variant={isWidthUp("lg", width) ? "h6" : "body1"}
                             color="textSecondary"
                           >
+                            Pay with this QR Code to register yourself.<br />
                             Chameli Devi Group Of Instituions
                           </Typography>
                         </Box>
@@ -157,7 +158,7 @@ function HeadSection(props) {
                         className={classes.image}
                         alt="header example"
                       />
-                      <h4 style={{paddingTop: "10px"}}>EVENT HEAD</h4>
+                      <h4 style={{paddingTop: "10px"}}>PRESIDENT</h4>
                       <h5>ATHARVA HAJARNIS : 8770052072</h5>
                     </Grid>
                   </Hidden>

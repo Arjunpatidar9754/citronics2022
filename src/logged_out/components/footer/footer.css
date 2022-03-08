@@ -18,3 +18,26 @@
     width: 50px;
     margin: 10px;
 }
+
+@media screen and (max-width: 600px) {
+    .footer-college-logo1{
+        width: 45px;
+        margin: 5px;
+    }
+    .footer-college-logo2{
+        width: 46px;
+        margin: 5px;
+    }
+    .footer-college-logo3{
+        width: 43px;
+        margin: 5px;
+    }
+    .footer-college-logo4{
+        width: 40px;
+        margin: 5px;
+    }
+    .footer-college-logo5{
+        width: 40px;
+        margin: 5px;
+    }    
+}
