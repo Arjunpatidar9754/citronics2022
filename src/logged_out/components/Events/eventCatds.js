@@ -12,10 +12,10 @@ import OnSpot from "../../images/onspot/onspot.webp";
 import Robotics from "../../images/robotics/robotics.webp";
 import Sports from "../../images/sports/sports.webp";
 import Pharma from "../../images/pharma/pharma.webp";
-import Adventurous from "../../images/sports/sports.webp";
+import Adventurous from "../../images/sports/roadies.webp";
 import Photography from "../../images/sports/photography.webp";
 import Civil from "../../images/sports/civil.webp";
-import Management from "../../images/sports/sports.webp";
+import Management from "../../images/sports/management.webp";
 
 
 
@@ -132,7 +132,7 @@ function EventCards() {
                     <Card.Body>
                         <Card.Title className="card-title">Photography Events</Card.Title>
                         <div style={{marginBottom: "10px"}}><b>Core:</b>Pranav Singh [ 9993823010 ]</div>
-                        <Link to="/events/entertainment" className="card-link">Know More</Link>
+                        <Link to="/events/photography" className="card-link">Know More</Link>
                     </Card.Body>
                 </Card>
             </Grid>
@@ -142,7 +142,7 @@ function EventCards() {
                     <Card.Img variant="top" src={Civil} alt="Civil events"/>
                     <Card.Body>
                         <Card.Title className="card-title">Civil Events</Card.Title>
-                        <div style={{marginBottom: "10px"}}><b>Core:</b>Ritik Prajapat [ 6267770529 ]</div>
+                        <div style={{marginBottom: "10px"}}><b>Core:</b>Ritik Prajapat [ 9977930622 ]</div>
                         <Link to="/events/civil" className="card-link">Know More</Link>
                     </Card.Body>
                 </Card>

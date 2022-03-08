@@ -5,8 +5,8 @@ import HeadSection from "./HeadSection";
 // import PricingSection from "./PricingSection";
 import WebPoster from "../../images/website poster-l.jpg";
 import "./home.css";
-import { Typography } from "@material-ui/core";
-import EventCards from "../Events/eventCatds";
+import { Typography } from "@material-ui/core";// eslint-disable-next-line
+import EventCards from "../Events/eventCatds"; 
 import GoogleMap from "../GooglMap";
 import {Carousel} from "react-bootstrap";
 import { Link } from "react-router-dom";

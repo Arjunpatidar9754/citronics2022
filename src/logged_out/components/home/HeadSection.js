@@ -125,7 +125,7 @@ function HeadSection(props) {
                         <Typography
                           variant={isWidthUp("lg", width) ? "h3" : "h4"}
                         >
-                          Citronics form
+                          QR Code
                         </Typography>
                       </Box>
                       <div>
@@ -134,8 +134,7 @@ function HeadSection(props) {
                             variant={isWidthUp("lg", width) ? "h6" : "body1"}
                             color="textSecondary"
                           >
-                            Lorem ipsum dolor sit amet, consetetur sadipscing
-                            elitr, sed diam nonumy eirmod tempor invidunt
+                            Chameli Devi Group Of Instituions
                           </Typography>
                         </Box>
                         <Button
