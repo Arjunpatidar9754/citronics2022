@@ -42,7 +42,7 @@ function EventCards() {
                     <Card.Img variant="top" src={Enterpreneurship} alt="Enterpreneurship events"/>
                     <Card.Body>
                         <Card.Title className="card-title">Enterpreneurship Events</Card.Title>
-                        <div><b>Core:</b>Jay Patidar [ 9755975565 ]</div>
+                        <div><b>Core:</b>Jay Kumar Patidar [ 9755975565 ]</div>
                         <div style={{marginBottom: "10px"}}><b>Core:</b>Mansi Parmar [ 7477085667 ]</div>
                         <Link to="/events/enterprenuership" className="card-link">Know More</Link>
                     </Card.Body>
@@ -53,8 +53,8 @@ function EventCards() {
                     <Card.Img variant="top" src={Software} alt="Software events"/>
                     <Card.Body>
                         <Card.Title className="card-title">Software Events</Card.Title>
-                        <div><b>Core:</b>Aman kushwah [ 7974392752 ]</div>
-                        <div style={{marginBottom: "10px"}}><b>Core:</b>Harshita parmar [ 8871062393 ]</div>
+                        <div><b>Core:</b>Aman Kushwah [ 7974392752 ]</div>
+                        <div style={{marginBottom: "10px"}}><b>Core:</b>Harshita Parmar [ 8871062393 ]</div>
                         <Link to="/events/software" className="card-link">Know More</Link>
                     </Card.Body>
                 </Card>
@@ -108,8 +108,8 @@ function EventCards() {
                     
                     <Card.Body>
                         <Card.Title className="card-title">Pharma Events</Card.Title>
-                        <div><b>Core:</b>Aman Bundela [ 8962202886 ]</div>
-                        <div style={{marginBottom: "10px"}}><b>Core:</b>Nikhil Shinde [ 9179086764 ]</div>
+                        <div><b>Core:</b>Nikhil Shinde [ 9179086764 ]</div>
+                        <div style={{marginBottom: "10px"}}><b>Core:</b>Aman Bundela [ 8962202886 ]</div>
                         <Link to="/events/pharma" className="card-link">Know More</Link>
                     </Card.Body>
                 </Card>
@@ -142,6 +142,7 @@ function EventCards() {
                     <Card.Img variant="top" src={Civil} alt="Civil events"/>
                     <Card.Body>
                         <Card.Title className="card-title">Civil Events</Card.Title>
+                        <div><b>Core:</b>Ritik Sharma [ 6266190929 ]</div>
                         <div style={{marginBottom: "10px"}}><b>Core:</b>Ritik Prajapat [ 9977930622 ]</div>
                         <Link to="/events/civil" className="card-link">Know More</Link>
                     </Card.Body>
@@ -154,8 +155,8 @@ function EventCards() {
                     <Card.Body>
                         <Card.Title className="card-title">Management Events</Card.Title>
                         <div><b>Core:</b>Arpit Sharma [ 9109257252 ]</div>
-                        <div><b>Core:</b>Harsh Sen [ ------ ]</div>
-                        <div style={{marginBottom: "10px"}}><b>Core:</b>Nirmal Patidar [ ------ ]</div>
+                        <div><b>Core:</b>Harshit malakaar [ 9340440348 ]</div>
+                        <div style={{marginBottom: "10px"}}><b>Core:</b>Nirmal Patidar [ 7224868243 ]</div>
                         <Link to="/events/management" className="card-link">Know More</Link>
                     </Card.Body>
                 </Card>

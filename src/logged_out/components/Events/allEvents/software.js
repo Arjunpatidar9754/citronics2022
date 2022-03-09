@@ -33,10 +33,10 @@ function Software () {
                     <div>
                         <br />
                         <h2 style={{textTransform: "uppercase"}}>Event Name : beat the bug</h2><hr />
-                        <h3 style={{textTransform: "uppercase"}}>Entry Fees: 100</h3>
-                        <h3 style={{textTransform: "uppercase"}}>first Prize : 2000</h3>
-                        <h3 style={{textTransform: "uppercase"}}>second Prize : 1000</h3>
-                        <h3 style={{textTransform: "uppercase"}}>Third Prize: Rs500/-</h3>
+                        <h3 style={{textTransform: "uppercase"}}>Entry Fees: 100/-</h3>
+                        <h3 style={{textTransform: "uppercase"}}>first Prize : 2000/-</h3>
+                        <h3 style={{textTransform: "uppercase"}}>second Prize : 1000/-</h3>
+                        <h3 style={{textTransform: "uppercase"}}>Third Prize: 500/-</h3>
                     </div>
                 </Grid>
             </Grid>
@@ -45,7 +45,7 @@ function Software () {
                     <Accordion.Header><h4 style={{textAlign: "center", color: "brown" }}>Show Guidelines</h4></Accordion.Header>
                     <Accordion.Body>
                     <h3>BEAT THE BUG</h3>
-                        <p>This event is all about bug fixing, participants will be challenged with some questions related to the 'C & C++' programming language which they have to solve in the given time and the top scorers will be taken to the next round for fixing a program and make it run the best performers will be awarded in the end of all the competition.</p>
+                        <p>This event is all about bug fixing, participants will be challenged with some questions related to the 'C &#38; C++' programming language which they have to solve in the given time and the top scorers will be taken to the next round for fixing a program and make it run the best performers will be awarded in the end of all the competition.</p>
                         <h3>"MAKE IT RUN....MAKE IT RIGHT....MAKE IT FAST.... </h3>
                         
                         <ol>
@@ -82,10 +82,10 @@ function Software () {
                     <div>
                         <br />
                         <h2 style={{textTransform: "uppercase"}}>Event Name : BEST GOOGLER</h2><hr />
-                        <h3 style={{textTransform: "uppercase"}}>Entry Fees: 100</h3>
-                        <h3 style={{textTransform: "uppercase"}}>first Prize : 2000</h3>
-                        <h3 style={{textTransform: "uppercase"}}>second Prize : 1000</h3>
-                        <h3 style={{textTransform: "uppercase"}}>Third Prize : 500</h3>
+                        <h3 style={{textTransform: "uppercase"}}>Entry Fees: 100/-</h3>
+                        <h3 style={{textTransform: "uppercase"}}>first Prize : 2000/-</h3>
+                        <h3 style={{textTransform: "uppercase"}}>second Prize : 1000/-</h3>
+                        <h3 style={{textTransform: "uppercase"}}>Third Prize : 500/-</h3>
                     </div>
                 </Grid>
             </Grid>
@@ -129,9 +129,9 @@ function Software () {
                     <div>
                         <br />
                         <h2 style={{textTransform: "uppercase"}}>Event Name : CODE DECODE</h2><hr />
-                        <h3 style={{textTransform: "uppercase"}}>Entry Fees: 200</h3>
-                        <h3 style={{textTransform: "uppercase"}}>first Prize : 1500</h3>
-                        <h3 style={{textTransform: "uppercase"}}>second Prize : 1000</h3>
+                        <h3 style={{textTransform: "uppercase"}}>Entry Fees: 200/-</h3>
+                        <h3 style={{textTransform: "uppercase"}}>first Prize : 2000/-</h3>
+                        <h3 style={{textTransform: "uppercase"}}>second Prize : 1200/-</h3>
                     </div>
                 </Grid>
             </Grid>
@@ -145,7 +145,7 @@ function Software () {
                         <ol>
                             <h3>Guidelines </h3>
                             <li>This event is a team event.</li>
-                            <li>articipants are not allowed to use their mobile phones or any other electronic device during the event.</li>
+                            <li>Participants are not allowed to use their mobile phones or any other electronic device during the event.</li>
                             <li>Each team should have 4 members.</li>
                             <li>The team members cannot split and they need to be altogether. Splitting from team mates will lead to disqualification of team.</li>
                             <li>Time limit will be 90 mins. </li>
@@ -174,9 +174,9 @@ function Software () {
                     <div>
                         <br />
                         <h2 style={{textTransform: "uppercase"}}>Event Name : INNO MANTHAN</h2><hr />
-                        <h3 style={{textTransform: "uppercase"}}>Entry Fees: 320</h3>
-                        <h3 style={{textTransform: "uppercase"}}>first Prize : 3000</h3>
-                        <h3 style={{textTransform: "uppercase"}}>second Prize : 1500</h3>
+                        <h3 style={{textTransform: "uppercase"}}>Entry Fees: 320/-</h3>
+                        <h3 style={{textTransform: "uppercase"}}>first Prize : 3000/-</h3>
+                        <h3 style={{textTransform: "uppercase"}}>second Prize : 1500/-</h3>
                     </div>
                 </Grid>
             </Grid>
@@ -247,9 +247,9 @@ function Software () {
                     <div>
                         <br />
                         <h2 style={{textTransform: "uppercase"}}>Event Name : QUIZOPHILE</h2><hr />
-                        <h3 style={{textTransform: "uppercase"}}>Entry Fees: 200</h3>
-                        <h3 style={{textTransform: "uppercase"}}>first Prize : 1500</h3>
-                        <h3 style={{textTransform: "uppercase"}}>second Prize : 1000</h3>
+                        <h3 style={{textTransform: "uppercase"}}>Entry Fees: 200/-</h3>
+                        <h3 style={{textTransform: "uppercase"}}>first Prize : 1500/-</h3>
+                        <h3 style={{textTransform: "uppercase"}}>second Prize : 1000/-</h3>
                     </div>
                 </Grid>
             </Grid>
@@ -288,7 +288,7 @@ function Software () {
                                 <li>If the team pass the question, then question will be changed. </li>
                             </ol>
                         </ol>
-                        <li>icipants are not allowed to use their mobile phones or any other electronic device during the event. </li>
+                        <li>Participants are not allowed to use their mobile phones or any other electronic device during the event. </li>
                         <li>Judge’s decision will be final.</li>
                         <li>If there any type of nuisance or misbehave with coordinators/ volunteers, the team will be eliminated from event immediately.</li>
                         <li> Best performer/team will be decided according to the team whose points are higher than other teams.</li>
@@ -314,9 +314,9 @@ function Software () {
                     <div>
                         <br />
                         <h2 style={{textTransform: "uppercase"}}>Event Name : SIMON GAME</h2><hr />
-                        <h3 style={{textTransform: "uppercase"}}>Entry Fees: 100</h3>
-                        <h3 style={{textTransform: "uppercase"}}>first Prize : 2000</h3>
-                        <h3 style={{textTransform: "uppercase"}}>second Prize : 1000</h3>
+                        <h3 style={{textTransform: "uppercase"}}>Entry Fees: 100/-</h3>
+                        <h3 style={{textTransform: "uppercase"}}>first Prize : 2000/-</h3>
+                        <h3 style={{textTransform: "uppercase"}}>second Prize : 1000/-</h3>
                     </div>
                 </Grid>
             </Grid>

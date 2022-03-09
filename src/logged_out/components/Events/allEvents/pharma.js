@@ -42,7 +42,6 @@ function Pharma () {
                     <Accordion.Header><h4 style={{textAlign: "center", color: "brown" }}>Show Guidelines</h4></Accordion.Header>
                     <Accordion.Body>
                         <div>
-                        <h1>PHARMA DISENO CONCEPTUAL</h1>
                         <h3>Description</h3>
                         <p>THIS IS ABOUT THE CONCEPT/HYPOTHESIS OF YOUR SCIENTIFIC RESEARCH/ INNOVATION/ INVENTION IN RELATION TO THE PHARMACEUTICALS WITH CERTAIN JUSTIFICATION BEHIND IT.</p>
                         <h3>EVENT STRATEGY:</h3>
@@ -92,7 +91,7 @@ function Pharma () {
                     <Accordion.Header><h4 style={{textAlign: "center", color: "brown" }}>Show Guidelines</h4></Accordion.Header>
                     <Accordion.Body>
                         <div>
-                        <h1>PHARMACO INNOVATSIA</h1>
+                        
                         <h3>Description</h3>
                         <p>THIS IS ABOUT NOVEL /INNOVATIVE PHARMA FORMULATION WITH PERFECT RATIONAL BEHIND THE CONCEPT.</p>
                         <h3>EVENT STRATEGY:</h3>
@@ -137,7 +136,7 @@ function Pharma () {
                         <h2 style={{textTransform: "uppercase"}}>Event Name : MODELE PHARAMCEUTIQUE</h2><hr />
                         <h3 style={{textTransform: "uppercase"}}>Entry Fees: 300/-</h3>
                         <h3 style={{textTransform: "uppercase"}}>first Prize : 1500/-</h3>
-                        <h3 style={{textTransform: "uppercase"}}>second Prize : 1000/</h3>
+                        <h3 style={{textTransform: "uppercase"}}>second Prize : 1000/-</h3>
                     </div>
                 </Grid>
             </Grid>
@@ -145,7 +144,7 @@ function Pharma () {
                 <Accordion.Item eventKey="0">
                     <Accordion.Header><h4 style={{textAlign: "center", color: "brown" }}>Show Guidelines</h4></Accordion.Header>
                     <Accordion.Body>
-                        <h3> MODELE PHARAMCEUTIQUE </h3>
+                        
                         <h3> Description </h3>
                         <p> THIS IS ABOUT DEVELOPING ANY WORKING MODEL OF THE MACHINERY OR TECHNOLOGY USED IN PHARMACY SUGGESTING PARTICULAR SOLUTIONS FOR THE EXISTING PROBLEMS IN PHARMA- INDUSTRY- ACADEMIA BACKGROUND AS WELL AS ABOUT THE INNOVATION AND RESEARCH ASPECTS IN NEWER TECHNOLOGY FOR DEVELOPMENT OF PHARMACEUTICALS. </p>
                         <h3>EVENT STRATEGY:</h3>

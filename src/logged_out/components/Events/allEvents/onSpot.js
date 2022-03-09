@@ -32,11 +32,11 @@ function OnSpot () {
                 <Grid item xs={12} lg={6} sm={6}>
                     <div>
                         <br />
-                        <h2 style={{textTransform: "uppercase"}}>Event Name : AEROPLANE TROSS</h2><hr />
+                        <h2 style={{textTransform: "uppercase"}}>Event Name : AEROPLANE TOSS</h2><hr />
                         <h3 style={{textTransform: "uppercase"}}>Entry Fees: 30/-</h3>
                         <h3 style={{textTransform: "uppercase"}}>100-150 : 100/-</h3>
                         <h3 style={{textTransform: "uppercase"}}>50-100 : 50/-</h3>
-                        <h3 style={{textTransform: "uppercase"}}>0-50 points : 30/-</h3>
+                        <h3 style={{textTransform: "uppercase"}}>0-50 points : 20/-</h3>
                     </div>
                 </Grid>
             </Grid>
@@ -44,10 +44,10 @@ function OnSpot () {
                 <Accordion.Item eventKey="0">
                     <Accordion.Header><h4 style={{textAlign: "center", color: "brown" }}>Show Guidelines</h4></Accordion.Header>
                     <Accordion.Body>
-                        <h3>AEROPLANE TROSS</h3>
+                        <h3>AEROPLANE TOSS</h3>
                         <p>It is interesting game in which player will throw paper planes in the circles on the board which are marked with points. </p>
                         <ol>
-                            <h3>GUIDELINE:</h3>
+                            <h4>GUIDELINE:</h4>
                             <li>A run up or fast walk as part of launch is not permitted.</li>
                             <li>The distance between the target and starting point is 3.5m.</li>
                             <li>Total number of attempts 03.</li>
@@ -56,8 +56,8 @@ function OnSpot () {
                             <li>Participants should maintain dignity and discipline.</li>
                         </ol>
                         <div>
-                            <h3>Event Dates:25th march , 26th march 2k22</h3>
-                            <h3>Venue : opposite CDIPS block </h3>
+                            <h4>Event Dates:25th march , 26th march 2k22</h4>
+                            <h4>Venue : opposite CDIPS block </h4>
                         </div>                   
                     <Accordion.Header><h4 style={{textAlign: "center", color: "brown" }}>Close</h4></Accordion.Header>
                     </Accordion.Body>
@@ -74,11 +74,11 @@ function OnSpot () {
                 <Grid item xs={12} lg={6} sm={6}>
                     <div>
                         <br />
-                        <h2 style={{textTransform: "uppercase"}}>Event Name : Browniee Tennis</h2><hr />
+                        <h2 style={{textTransform: "uppercase"}}>Event Name : Brownian Tennis</h2><hr />
                         <h3 style={{textTransform: "uppercase"}}>Entry Fees: 50/-</h3>
                         <h3 style={{textTransform: "uppercase"}}>first Throw : 100/-</h3>
                         <h3 style={{textTransform: "uppercase"}}>second Throw : 80/-</h3>
-                        <h3 style={{textTransform: "uppercase"}}>second Throw : 70/-</h3>
+                        <h3 style={{textTransform: "uppercase"}}>Third Throw : 50/-</h3>
                     </div>
                 </Grid>
             </Grid>
@@ -86,17 +86,17 @@ function OnSpot () {
                 <Accordion.Item eventKey="0">
                     <Accordion.Header><h4 style={{textAlign: "center", color: "brown" }}>Show Guidelines</h4></Accordion.Header>
                     <Accordion.Body>
-                        <h3>Browniee Tennis </h3>
-                        <p>Browniee tennis is a sport event in which participant have to throw the ball on the table using a 
+                        <h3>Brownian Tennis </h3>
+                        <p>Brownian tennis is a sport event in which participant have to throw the ball on the table using a 
                             bat to put exactly in the aimed container from the starting line</p>
                             <ol>
                                 <h3>Guidelines</h3>
-                                <li>The event will comprise of three throws (Per panicipant).</li>
+                                <li>The event will comprise of three throws (Per participant).</li>
                                 <li>Participant can participate in pair of two as the game will be conducted as a competition between two of them.</li>
                                 <li>For single player participants -if the person has win in the first goal no further 2 chances</li>
                             </ol>
                             <div>
-                                <h3>Event Date:25/mar/2022 & 26/mar/2022</h3>
+                                <h3>Event Date:25/mar/2022 &#38; 26/mar/2022</h3>
                                 <h3>Winner will be declared at that time only.</h3>
                             </div>
                     <Accordion.Header><h4 style={{textAlign: "center", color: "brown" }}>Close</h4></Accordion.Header>
@@ -114,8 +114,8 @@ function OnSpot () {
                     <div>
                         <br />
                         <h2 style={{textTransform: "uppercase"}}>Event Name : HANDLEG CHALLENGE</h2><hr />
-                        <h3 style={{textTransform: "uppercase"}}>Entry Fees: 50</h3>
-                        <h3 style={{textTransform: "uppercase"}}>first Prize : 200</h3>
+                        <h3 style={{textTransform: "uppercase"}}>Entry Fees: 50/-</h3>
+                        <h3 style={{textTransform: "uppercase"}}>first Prize : 150/-</h3>
                     </div>
                 </Grid>
             </Grid>
@@ -150,12 +150,13 @@ function OnSpot () {
                     <div>
                         <br />
                         <h2 style={{textTransform: "uppercase"}}>Event Name : PUBG</h2><hr />
-                        <h3 style={{textTransform: "uppercase"}}>Solo-Entry Fees: 30</h3>
-                        <h3 style={{textTransform: "uppercase"}}>Solo-Prize : 400</h3>
-                        <h3 style={{textTransform: "uppercase"}}>Solo-Entry Fees: 100</h3>
-                        <h3 style={{textTransform: "uppercase"}}>Solo-Prize : 800</h3> 
-                        <h3 style={{textTransform: "uppercase"}}>Solo-Entry Fees: 200</h3>
-                        <h3 style={{textTransform: "uppercase"}}>Solo-Prize : 1500</h3>                  </div>
+                        <h3 style={{textTransform: "uppercase"}}>Solo-Entry Fees: 50/-</h3>
+                        <h3 style={{textTransform: "uppercase"}}>Solo-Prize : 500/-</h3>
+                        <h3 style={{textTransform: "uppercase"}}>Duo-Entry Fees: 100/-</h3>
+                        <h3 style={{textTransform: "uppercase"}}>Duo-Prize : 800/-</h3> 
+                        <h3 style={{textTransform: "uppercase"}}>Squad-Entry Fees: 200/-</h3>
+                        <h3 style={{textTransform: "uppercase"}}>Squad-Prize(high-kill 300/- bonus) : 1500/-</h3>                  
+                    </div>
                 </Grid>
             </Grid>
             <Accordion>
@@ -207,7 +208,7 @@ function OnSpot () {
                             <li>THEME WILL BE OPEN</li>
                             <li>THERE WILL BE ONLY ONE ROUND OF COMPETITION</li>
                             <li>COLORS WILL PROVIDE TO EACH PARTICIPANTS</li>
-                            <li>PHONES ARE PROHIBITED</li>
+                            <li>PHONES ARE STRICTLY PROHIBITED</li>
                         </ol>
                         <h4>JUDGEMNT WILL BE BASED ON OVERALL APPEARANCE,THEME AND CLEARITY OF RANGOLI</h4>
                         <div>
@@ -234,9 +235,8 @@ function OnSpot () {
                     <div>
                         <br />
                         <h2 style={{textTransform: "uppercase"}}>Event Name : SODA CAN ROLL CHALLENGE</h2><hr />
-                        <h3 style={{textTransform: "uppercase"}}>Entry Fees: 80/-</h3>
-                        <h3 style={{textTransform: "uppercase"}}>first Prize : ----</h3>
-                        <h3 style={{textTransform: "uppercase"}}>second Prize : ----</h3>
+                        <h3 style={{textTransform: "uppercase"}}>Entry Fees: 50/-</h3>
+                        <h3 style={{textTransform: "uppercase"}}>exciting price</h3>
                     </div>
                 </Grid>
             </Grid>
@@ -248,7 +248,7 @@ function OnSpot () {
                         <p>This  game is a unique and fun game in which a player have to roll the can (Red Bull) on a table where multiple prize money are placed and where the can stops rolling player will get the prize accordingly. </p>
                         <ol>
                             <h3>GUIDELINES </h3>
-                            <li>Entry Fees – 80rs( NON REFUNDABLE)</li>
+                            <li>Entry Fees – 50rs( NON REFUNDABLE)</li>
                             <li>You have to roll the CAN.</li>
                             <li>The body of can should cover at least 50% of the strip.</li>
                             <li>The maximum number of attempts are 02.</li>

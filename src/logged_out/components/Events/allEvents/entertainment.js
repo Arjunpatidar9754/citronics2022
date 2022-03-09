@@ -28,7 +28,7 @@ function Entertainment() {
                             <div>
                                 <br />
                                 <h2 style={{ textTransform: "uppercase" }}>Event Name : Let's dance </h2><hr />
-                                <h3 style={{ textTransform: "uppercase" }}>Entry Fees: Rs 300(For Solo) Rs 500(For Duo)</h3>
+                                <h3 style={{ textTransform: "uppercase" }}>Entry Fees: Rs 300/-(For Solo) Rs 500/-(For Duo)</h3>
                                 <h3 style={{ textTransform: "uppercase" }}>Solo Price : 1500/-</h3>
                                 <h3 style={{ textTransform: "uppercase" }}>Duo price : 2500/- </h3>
                             </div>
@@ -41,8 +41,8 @@ function Entertainment() {
                                 <br />
                                 <h3>GUIDELINES:</h3>
                                 <ul>
-                                    <li> All entries should have Solo and Duo participation.</li>
-                                    <li> All participants of the entries should be atleast 13 years old and above</li>
+                                    <li> Solo &#38; Duo participants will be entertained only.</li>
+                                    <li> All participants of the entries should be 18+ years</li>
                                     <li> All the participants have to Register on website with registration fees.</li>
                                     <li> The official entries shall be provided by the organizers with a schedule of activities</li>
                                     <li> Those who are absent/late for their designated blocking time will not be allowed to block on stage at a later time. </li>
@@ -105,9 +105,9 @@ function Entertainment() {
                             <div>
                                 <br />
                                 <h2 style={{ textTransform: "uppercase" }}>Event Name :OPEN MIC</h2><hr />
-                                <h3 style={{ textTransform: "uppercase" }}>Entry Fees: 200</h3>
-                                <h3 style={{ textTransform: "uppercase" }}>first Prize : 2000rs</h3>
-                                <h3 style={{ textTransform: "uppercase" }}>second Prize : 1000rs</h3>
+                                <h3 style={{ textTransform: "uppercase" }}>Entry Fees: 200/-</h3>
+                                <h3 style={{ textTransform: "uppercase" }}>first Prize : 2000/-</h3>
+                                <h3 style={{ textTransform: "uppercase" }}>second Prize : 1000/-</h3>
                                 
                             </div>
                         </Grid>
@@ -118,8 +118,8 @@ function Entertainment() {
                             <Accordion.Body>
                                 <ul>
                                     <li>Your content should be free from any kind of sexual and religious vulgarity</li>
-                                    <li>Performance will begin at _________ P.M.</li>
-                                    <li>Each performer will get _________ minutes. So, prepare accordingly</li>
+                                    
+                                    <li>Each performer will get 3 to 4 minutes. So, prepare accordingly</li>
                                     <li>We will provide you with – Sound board, Speakers, Mics, and Cable.</li>
                                     <li>When you are next, be ready.</li>
                                     <li>Perform material you are comfortable with.</li>
@@ -143,8 +143,8 @@ function Entertainment() {
                             <div>
                                 <br />
                                 <h2 style={{ textTransform: "uppercase" }}>Event Name : Band War</h2><hr />
-                                <h3 style={{ textTransform: "uppercase" }}>Entry Fees: 1000/Team</h3>
-                                <h3 style={{ textTransform: "uppercase" }}>Winner Team : Rs 10000</h3>
+                                <h3 style={{ textTransform: "uppercase" }}>Entry Fees: 1200/-</h3>
+                                <h3 style={{ textTransform: "uppercase" }}>Winner Team : Rs 10,000/-</h3>
                                 
                             </div>
                         </Grid>
@@ -159,7 +159,7 @@ function Entertainment() {
                                     <li>. Participants have to maintain the decorum.</li>
                                     <li> Each band will have to mention number of members and instruments which they will bring</li>
                                     <li> College will only provide drum set.</li>
-                                    <li>. You have to report at __PM</li>
+                                    
                                     <li>. Band will have to mention the name of their band and the person leading it</li>
                                     <li>. Participants have to bring their own aux cables.</li>
                                     <li> Participants have to report half an hour before the program start.</li>

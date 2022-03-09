@@ -26,6 +26,50 @@ function Enterprenuership () {
         <section style={{paddingTop: "150px"}} className="container">
             <Grid container spacing={2}>
                 <Grid item xs={12} lg={6} sm={6}>
+                    <img src={Youth} alt="red-light green light" style={{width: "100%"}}/>
+                </Grid>
+                <Grid item xs={12} lg={6} sm={6}>
+                    <div>
+                        <br />
+                        <h2 style={{textTransform: "uppercase"}}>Event Name : Youth Got Talent</h2><hr />
+                        <h3 style={{textTransform: "uppercase"}}>Entry Fees: 100/-</h3>
+                        <h3 style={{textTransform: "uppercase"}}>first Prize : Exciting Price</h3>
+                        <h3 style={{textTransform: "uppercase"}}>second Prize : Exciting Price</h3>
+                    </div>
+                </Grid>
+            </Grid>
+            <Accordion>
+                <Accordion.Item eventKey="0">
+                    <Accordion.Header><h4 style={{textAlign: "center", color: "brown" }}>Show Guidelines</h4></Accordion.Header>
+                    <Accordion.Body>
+                    <h3>Event Name : Youth Got Talent</h3><hr />
+                    
+                    <p>Youth Got Talent is pitching competition [like Shark Tank] in
+                        which entrepreneurs will pitch their innovative ideas in front of
+                        Judges and audience. They can also raise Investment from judges.</p>
+                        <div>
+                            <h3>Guidelines</h3>
+                    
+                            <ol type="1">
+                                <li>This is an individual event; maximum 2 members can pitch their idea. </li>
+                                <li>Each pitch duration is of 5 minutes and 5 minutes for cross questioning by judges.</li>
+                                <li>Participant should have their PPT with themselves.</li>
+                                <li>Ideas must be different from each other.</li>
+                                <li>Judges can ask any questions about your startup/idea.</li>
+                                <li>Participants can make counter offer to judges if they are interested in the idea presented.</li>
+                                <li>Registration fees will not be refundable in any case.</li>
+                                <li>If any participant seen violating rules/regulations, misbehaving, any doing malpractices will be disqualified.</li>
+                            </ol>
+                    </div>
+                    <Accordion.Header><h4 style={{textAlign: "center", color: "brown" }}>Close</h4></Accordion.Header>
+                    </Accordion.Body>
+                </Accordion.Item>
+            </Accordion>
+        </section>
+        <hr />
+        <section style={{paddingTop: "50px"}} className="container">
+            <Grid container spacing={2}>
+                <Grid item xs={12} lg={6} sm={6}>
                     <img src={Red} alt="red-light green light" style={{width: "100%"}}/>
                 </Grid>
                 <Grid item xs={12} lg={6} sm={6}>
@@ -50,7 +94,7 @@ function Enterprenuership () {
                         <p> Red Light Green Light is a fun game in which there are 2
                             rounds.
                             In Round 1, participant has to rapidly say the company name
-                            starting from the last letter of their previous participants'
+                            starting from the last letter of their previous participant's
                             company.
                             In Round 2, qualified participants will give a letter and the one
                             who give the name first move ahead in the pathway and who
@@ -61,7 +105,7 @@ function Enterprenuership () {
                         <h2>Guidelines</h2>
                         
                         <ol>
-                            <li> In this event, only individual can participate</li>
+                            <li> In this event, only individual can participate.</li>
                             <li>Company name should not be repeated in the respective round.</li>
                             <li>In each round, time limit will be exceeded accordingly. </li>
                             <li>Name of the company should be valid. </li>
@@ -98,13 +142,13 @@ function Enterprenuership () {
                 <Accordion.Item eventKey="0">
                     <Accordion.Header><h4 style={{textAlign: "center", color: "brown" }}>Show Guidelines</h4></Accordion.Header>
                     <Accordion.Body>
-                        <h3>Event Name : Dare To Develop (D2D)</h3>
+                        <h3>Event Name : Dare 2 Develop (D2D)</h3>
                         <hr />
 
                         <p>Dare to call yourself an efficient entrepreneur? Prove your
-                            efficiency and time management skills in "Dare to Develop", where
+                            efficiency and time management skills in "Dare 2 Develop", where
                             a team has to manufacture products as shapes using various tools
-                            provided..</p>
+                            provided.</p>
                         <div>
                         <h2>Guidelines</h2>
                         
@@ -161,16 +205,16 @@ function Enterprenuership () {
                             Money Heist is the perfect event for you to register where you will
                             be having chances of gaining some interesting powers and use it as
                             an advantage to sell your products. Also keep an eye on your budget
-                            because who knows when the table turns </p>
+                            because who knows when the table turns. </p>
                             <div>
                                 <h2>Guidelines</h2>
                                 
                                 <ol>
                                     <li>The event will comprise of three rounds. </li>
                                     <li>The Minimum Team members should be 2 and Maximum Team
-                                        members will be 4</li>
-                                    <li>. Participants have to sell the given item to judges as well as the
-                                        audience</li>
+                                        members will be 4.</li>
+                                    <li>Participants have to sell the given item to judges as well as the
+                                        audience.</li>
                                     <li>  First round will be a power snatcher round where the team has to
                                         collect powers (resources).  </li>
                                     <li> Each team will be given 500 points. </li>
@@ -185,7 +229,7 @@ function Enterprenuership () {
                                     <li>If any participant found misbehaving or in any act of cheating/
                                         violating rules, he/she will immediately be disqualified.
                                         </li>
-                                    <li> The Amount paid is non-refundable</li>
+                                    <li> The Amount paid is non-refundable.</li>
                                 </ol>
                             </div>
                     <Accordion.Header><h4 style={{textAlign: "center", color: "brown" }}>Close</h4></Accordion.Header>
@@ -222,16 +266,16 @@ function Enterprenuership () {
                         <h2>Guidelines</h2>
                         
                         <ol>
-                            <li>In this event, only individual can participate</li>
+                            <li>In this event, only individual can participate.</li>
                             <li>Participant has to sell the given item to judges as well as
-                                audience</li>
-                            <li>Time duration of a Sell Pitch is 3 minutes</li>
+                                audience.</li>
+                            <li>Time duration of a Sell Pitch is 3 minutes.</li>
                             <li>If any participant found in misbehavior or in any act of
                                 cheating/ violating rules, he/she will immediately be
                                 disqualified.</li>
                             <li>Audience can also participate in between the event.</li>
-                            <li>Minimum 10 entries is must</li>
-                            <li>The Amount paid is non-refundable</li>
+                            
+                            <li>The Amount paid is non-refundable.</li>
                         </ol>
                     </div>
                     <Accordion.Header><h4 style={{textAlign: "center", color: "brown" }}>Close</h4></Accordion.Header>
@@ -239,51 +283,7 @@ function Enterprenuership () {
                 </Accordion.Item>
             </Accordion>
         </section>
-        <hr />
-        <section style={{paddingTop: "50px"}} className="container">
-            <Grid container spacing={2}>
-                <Grid item xs={12} lg={6} sm={6}>
-                    <img src={Youth} alt="red-light green light" style={{width: "100%"}}/>
-                </Grid>
-                <Grid item xs={12} lg={6} sm={6}>
-                    <div>
-                        <br />
-                        <h2 style={{textTransform: "uppercase"}}>Event Name : Youth Got Talent</h2><hr />
-                        <h3 style={{textTransform: "uppercase"}}>Entry Fees: 100/-</h3>
-                        <h3 style={{textTransform: "uppercase"}}>first Prize : Exciting Price</h3>
-                        <h3 style={{textTransform: "uppercase"}}>second Prize : Exciting Price</h3>
-                    </div>
-                </Grid>
-            </Grid>
-            <Accordion>
-                <Accordion.Item eventKey="0">
-                    <Accordion.Header><h4 style={{textAlign: "center", color: "brown" }}>Show Guidelines</h4></Accordion.Header>
-                    <Accordion.Body>
-                    <h3>Event Name : Youth Got Talent</h3><hr />
-                    
-                    <p>Youth Got Talent is pitching competition [like Shark Tank] in
-                        which entrepreneurs will pitch their innovative ideas in front of
-                        Judges and audience. They can also raise Investment from judges.</p>
-                        <div>
-                            <h3>Guidelines</h3>
-                    
-                            <ol type="1">
-                                <li>This is an individual event; maximum 2 members can pitch their idea. </li>
-                                <li>Each pitch duration is of 5 minutes and 5 minutes for cross questioning by judges.</li>
-                                <li> should have their PPT with themselvese</li>
-                                <li>Ideas must be different from each othere</li>
-                                <li> Judges can ask any questions about your startup/ideae</li>
-                                <li> Participants can make counter offer to judges if they are interested in the idea presented.</li>
-                                <li> Registration fees will not be refundable in any case.</li>
-                                <li> If any participant seen violating rules/regulations, misbehaving, any doing malpractices will be disqualified.</li>
-
-                            </ol>
-                    </div>
-                    <Accordion.Header><h4 style={{textAlign: "center", color: "brown" }}>Close</h4></Accordion.Header>
-                    </Accordion.Body>
-                </Accordion.Item>
-            </Accordion>
-        </section>
+        
         
         </>
     );

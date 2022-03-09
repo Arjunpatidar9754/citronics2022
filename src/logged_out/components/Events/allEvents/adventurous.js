@@ -16,18 +16,18 @@ function Adventurous () {
         <img src={imageTop} alt="" className="event-img"/>
         <div className="container" >
             <div className="event-h-div">
-                <h1 className="event-h" align="center">E<span>nt</span>erpreneurship</h1>
+                <h1 className="event-h" align="center">R<span>o</span>adies</h1>
             </div>
         </div>
         <section style={{paddingTop: "150px"}} className="container">
             <Grid container spacing={2}>
                 <Grid item xs={12} lg={6} sm={6}>
-                    <img src={Red} alt="red-light green light" style={{width: "100%"}}/>
+                    <img src={Red} alt="roadies" style={{width: "100%"}}/>
                 </Grid>
                 <Grid item xs={12} lg={6} sm={6}>
                     <div>
                         <br />
-                        <h2 style={{textTransform: "uppercase"}}>Event Name : Red light green light</h2><hr />
+                        <h2 style={{textTransform: "uppercase"}}>Event Name : Roadies</h2><hr />
                         <h3 style={{textTransform: "uppercase"}}>Entry Fees: 150/-</h3>
                         <h3 style={{textTransform: "uppercase"}}>first Prize : 1200/-</h3>
                         <h3 style={{textTransform: "uppercase"}}>second Prize : 700/-</h3>
@@ -38,10 +38,10 @@ function Adventurous () {
                 <Accordion.Item eventKey="0">
                     <Accordion.Header><h4 style={{textAlign: "center", color: "brown" }}>Show Guidelines</h4></Accordion.Header>
                     <Accordion.Body>
-                        <h3>Guidelines for Rodies Event</h3>
+                        <h3>Guidelines for Roadies Event</h3>
                         <h4>Entry Prize: - 150/- </h4>
                         <h4>First Prize: -1200/-, Runner Up: -700/- </h4>
-                        <h4>Venue: - CDIPS Loan</h4>
+                        <h4>Venue: - CDIPS Lawn</h4>
                         <li>1)	Every participant has to carry some extra comfortable sports clothes.</li>
                         <li>2)	College will provide all the necessary safety equipment</li>
                         <li>3)	Medical facilities will be provided by the college in case of any injury or emergency.</li>

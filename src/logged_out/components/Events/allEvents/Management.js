@@ -148,7 +148,7 @@ function Management () {
                 <Grid item xs={12} lg={6} sm={6}>
                     <div>
                         <br />
-                        <h2 style={{textTransform: "uppercase"}}>Event Name : Dancing Dem</h2><hr />
+                        <h2 style={{textTransform: "uppercase"}}>Event Name : Dashing Dem</h2><hr />
                         <h3 style={{textTransform: "uppercase"}}>Entry Fees: 150/-</h3>
                         <h3 style={{textTransform: "uppercase"}}>ATTRACTIVE PRIZES</h3>
                     </div>
@@ -159,7 +159,7 @@ function Management () {
                     <Accordion.Header><h4 style={{textAlign: "center", color: "brown" }}>Show Guidelines</h4></Accordion.Header>
                     <Accordion.Body>
                     <div>
-                            <h1>Dancing Dem</h1>
+                            <h1>Dashing Dem</h1>
                             <h3>Event Schedule:</h3>
                         <ol>
                             <li>Round 1st: Elimination round.<ol>

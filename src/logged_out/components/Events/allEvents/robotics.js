@@ -30,9 +30,9 @@ function Robotics () {
                     <div>
                         <br />
                         <h2 style={{textTransform: "uppercase"}}>Event Name : LINE FOLLOWER</h2><hr />
-                        <h3 style={{textTransform: "uppercase"}}>Entry Fees: 30</h3>
-                        <h3 style={{textTransform: "uppercase"}}>first Prize : ----</h3>
-                        <h3 style={{textTransform: "uppercase"}}>second Prize : ----</h3>
+                        <h3 style={{textTransform: "uppercase"}}>Entry Fees: 200/-</h3>
+                        <h3 style={{textTransform: "uppercase"}}>first Prize : 3000/-</h3>
+                        <h3 style={{textTransform: "uppercase"}}>second Prize : 2000/-</h3>
                     </div>
                 </Grid>
             </Grid>
@@ -110,9 +110,9 @@ function Robotics () {
                     <div>
                         <br />
                         <h2 style={{textTransform: "uppercase"}}>Event Name : PICK AND PLACE</h2><hr />
-                        <h3 style={{textTransform: "uppercase"}}>Entry Fees: 30</h3>
-                        <h3 style={{textTransform: "uppercase"}}>first Prize : ----</h3>
-                        <h3 style={{textTransform: "uppercase"}}>second Prize : ----</h3>
+                        <h3 style={{textTransform: "uppercase"}}>Entry Fees: 300/-</h3>
+                        <h3 style={{textTransform: "uppercase"}}>first Prize : 5000/-</h3>
+                        <h3 style={{textTransform: "uppercase"}}>second Prize : 3000/-</h3>
                     </div>
                 </Grid>
             </Grid>
@@ -182,9 +182,9 @@ function Robotics () {
                     <div>
                         <br />
                         <h2 style={{textTransform: "uppercase"}}>Event Name : ROBO RACE</h2><hr />
-                        <h3 style={{textTransform: "uppercase"}}>Entry Fees: 30</h3>
-                        <h3 style={{textTransform: "uppercase"}}>first Prize : ----</h3>
-                        <h3 style={{textTransform: "uppercase"}}>second Prize : ----</h3>
+                        <h3 style={{textTransform: "uppercase"}}>Entry Fees: 300/-</h3>
+                        <h3 style={{textTransform: "uppercase"}}>first Prize : 5000/-</h3>
+                        <h3 style={{textTransform: "uppercase"}}>second Prize : 3000/-</h3>
                     </div>
                 </Grid>
             </Grid>

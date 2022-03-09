@@ -31,9 +31,9 @@ function Mechanical() {
                         <div>
                             <br />
                             <h2 style={{ textTransform: "uppercase" }}>Event Name : Auto Junkies</h2><hr />
-                            <h3 style={{ textTransform: "uppercase" }}>Entry Fees: 200</h3>
-                            <h3 style={{ textTransform: "uppercase" }}>first Prize : Rs 1000</h3>
-                            <h3 style={{ textTransform: "uppercase" }}>second Prize: Rs 750 </h3>
+                            <h3 style={{ textTransform: "uppercase" }}>Entry Fees: 100/-</h3>
+                            <h3 style={{ textTransform: "uppercase" }}>first Prize : 1000/-</h3>
+                            <h3 style={{ textTransform: "uppercase" }}>second Prize: 750/- </h3>
                         </div>
                     </Grid>
                 </Grid>
@@ -78,9 +78,9 @@ function Mechanical() {
                         <div>
                             <br />
                             <h2 style={{ textTransform: "uppercase" }}>Event Name : CAD Championship</h2><hr />
-                            <h3 style={{ textTransform: "uppercase" }}>Entry Fees: 100</h3>
-                            <h3 style={{ textTransform: "uppercase" }}>first Prize : Rs 1000</h3>
-                            <h3 style={{ textTransform: "uppercase" }}>second Prize : Rs750</h3>
+                            <h3 style={{ textTransform: "uppercase" }}>Entry Fees: 50/-</h3>
+                            <h3 style={{ textTransform: "uppercase" }}>first Prize : Rs 1000/-</h3>
+                            <h3 style={{ textTransform: "uppercase" }}>second Prize : Rs750/-</h3>
                         </div>
                     </Grid>
                 </Grid>
@@ -109,9 +109,9 @@ function Mechanical() {
                         <div>
                             <br />
                             <h2 style={{ textTransform: "uppercase" }}>Event Name : Sketch your Imagination</h2><hr />
-                            <h3 style={{ textTransform: "uppercase" }}>Entry Fees: Rs50</h3>
-                            <h3 style={{ textTransform: "uppercase" }}>first Prize :Rs1000</h3>
-                            <h3 style={{ textTransform: "uppercase" }}>second Prize : Rs500</h3>
+                            <h3 style={{ textTransform: "uppercase" }}>Entry Fees: 50/-</h3>
+                            <h3 style={{ textTransform: "uppercase" }}>first Prize : 1000/-</h3>
+                            <h3 style={{ textTransform: "uppercase" }}>second Prize : 500/-</h3>
                         </div>
                     </Grid>
                 </Grid>
@@ -150,8 +150,8 @@ function Mechanical() {
                         <div>
                             <br />
                             <h2 style={{ textTransform: "uppercase" }}>Event Name :Office ball</h2><hr />
-                            <h3 style={{ textTransform: "uppercase" }}>Entry Fees: 30</h3>
-                            <h3 style={{ textTransform: "uppercase" }}>Prize Money:200</h3>
+                            <h3 style={{ textTransform: "uppercase" }}>Entry Fees: 30/-</h3>
+                            <h3 style={{ textTransform: "uppercase" }}>Prize Money:200/-</h3>
                             {/* <h3 style={{ textTransform: "uppercase" }}>second Prize : Rs500</h3> */}
                         </div>
                     </Grid>
@@ -160,9 +160,9 @@ function Mechanical() {
                     <Accordion.Item eventKey="0">
                         <Accordion.Header><h4 style={{ textAlign: "center", color: "brown" }}>Show Details</h4></Accordion.Header>
                         <Accordion.Body>
-                            <h1>Description</h1>
+                            <h3>Description</h3>
                             <p>Office ball is a game, where participants are balancing the ball at a plane surface go to end line and put them into the bucket in a given time.</p>
-                            <h1>Guidelines</h1>
+                            <h3>Guidelines</h3>
                             <ul>
                                 <li>In this event you have to participate individually.</li>
                                 <li>Participant have to balance the ball on the plane surface don’t touch any body part otherwise you will be disqualified.</li>
@@ -170,7 +170,7 @@ function Mechanical() {
                                 <li>If the ball is dropped in between the path you have to start again from initial point.</li>
                                 <li>Students also participate in between the event.</li>
                             </ul>
-                            <h1>skteching Theme :-</h1>
+                            <h3>skteching Theme :-</h3>
                             <ul>
                                 <li>Peace after war.</li>
                                 <li>Patriotism.</li>
@@ -192,8 +192,8 @@ function Mechanical() {
                         <div>
                             <br />
                             <h2 style={{ textTransform: "uppercase" }}>Event Name :Switching puzzle</h2><hr />
-                            <h3 style={{ textTransform: "uppercase" }}>Entry Fees: 30</h3>
-                            <h3 style={{ textTransform: "uppercase" }}>Prize Money:200</h3>
+                            <h3 style={{ textTransform: "uppercase" }}>Entry Fees: 30/-</h3>
+                            <h3 style={{ textTransform: "uppercase" }}>Prize Money:200/-</h3>
                             {/* <h3 style={{ textTransform: "uppercase" }}>second Prize : Rs500</h3> */}
                         </div>
                     </Grid>
@@ -202,9 +202,9 @@ function Mechanical() {
                     <Accordion.Item eventKey="0">
                         <Accordion.Header><h4 style={{ textAlign: "center", color: "brown" }}>Show Details</h4></Accordion.Header>
                         <Accordion.Body>
-                            <h1>Description</h1>
+                            <h3>Description</h3>
                             <p>There is great way to fun by participating in switching puzzle contest, get ready to exercise your mind by reinforcing problem solving skills.</p>
-                            <h1>Guidelines</h1>
+                            <h3>Guidelines</h3>
                             <ul>
                                 <li>In this event you have to participate individually.</li>
                                 <li>Participants have to solve the puzzle with in time limit (60sec.).</li>
@@ -212,7 +212,7 @@ function Mechanical() {
                                 <li>Students also participate in between the event.</li>
                                 <li>You have to participate again when you disqualify in 1 time.</li>
                             </ul>
-                            <h1>skteching Theme :-</h1>
+                            <h3>skteching Theme :-</h3>
                             <ul>
                                 <li>Peace after war.</li>
                                 <li>Patriotism.</li>

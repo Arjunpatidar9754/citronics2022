@@ -31,8 +31,7 @@ function Sports () {
                         <br />
                         <h2 style={{textTransform: "uppercase"}}>Event Name : Box Cricket</h2><hr />
                         <h3 style={{textTransform: "uppercase"}}>Entry Fees: 300/-</h3>
-                        <h3 style={{textTransform: "uppercase"}}>first Prize : ----</h3>
-                        <h3 style={{textTransform: "uppercase"}}>second Prize : ----</h3>
+                        <h3 style={{textTransform: "uppercase"}}>Exciting cash price</h3>
                     </div>
                 </Grid>
             </Grid>
@@ -69,8 +68,7 @@ function Sports () {
                         <br />
                         <h2 style={{textTransform: "uppercase"}}>Event Name : Chess</h2><hr />
                         <h3 style={{textTransform: "uppercase"}}>Entry Fees: 100</h3>
-                        <h3 style={{textTransform: "uppercase"}}>first Prize : ----</h3>
-                        <h3 style={{textTransform: "uppercase"}}>second Prize : ----</h3>
+                        <h3 style={{textTransform: "uppercase"}}>Exciting cash price</h3>
                     </div>
                 </Grid>
             </Grid>
